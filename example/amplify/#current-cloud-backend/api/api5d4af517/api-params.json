@@ -1,0 +1,67 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "amplifytestd62ad666",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            }
+        },
+        {
+            "name": "/test",
+            "lambdaFunction": "amplifypythonfun",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            }
+        }
+    ],
+    "resourceName": "api5d4af517",
+    "apiName": "api5d4af517",
+    "functionArns": [
+        {
+            "lambdaFunction": "amplifytestd62ad666"
+        },
+        {
+            "lambdaFunction": "amplifypythonfun"
+        }
+    ],
+    "privacy": {
+        "auth": 2,
+        "unauth": 0,
+        "authRoleName": "amplify-amplifytest-dev-173615-authRole",
+        "unAuthRoleName": "amplify-amplifytest-dev-173615-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "amplifytestd62ad666",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "amplifypythonfun",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "a2bc67b0"
+}
