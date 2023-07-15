@@ -9,7 +9,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
-    "aws-amplify": "*3.0.18",
+    "aws-amplify": "*5.3.4",
     "aws-amplify-react": "^4.1.17"
   },
   "scripts": {
